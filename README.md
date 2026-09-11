@@ -9,7 +9,7 @@ https://hp-veloop-rewards-giveaways.vercel.app/
 
 
 ✈️ GitHub Repository:
-https://github.com/Hansa-prajapat/HP-Veloop-Rewards-Giveaways/edit/main/README.md
+https://github.com/Hansa-prajapat/HP-Veloop-Rewards-Giveaways
 
 
 
