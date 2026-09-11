@@ -2,6 +2,18 @@
 
 A polished React + Vite demo matching the supplied premium dark dashboard reference.
 
+
+
+🌏Live Demo:
+https://hp-veloop-rewards-giveaways.vercel.app/
+
+
+✈️ GitHub Repository:
+https://github.com/Hansa-prajapat/HP-Veloop-Rewards-Giveaways/edit/main/README.md
+
+
+
+
 ## Features
 - Premium dark/blue/purple gradient dashboard
 - Watch & Earn hero section with animated visual treatment
