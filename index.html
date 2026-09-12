@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VELOOP Rewards & Giveaways</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="brand"><span class="brand-mark">V</span><div><b>VELOOP</b><small>Rewards & Giveaways</small></div></div>
+      <div class="top-actions">
+        <span>🔔</span>
+        <div class="balance">🪙 <b id="topBalance">2,450</b> VE <button id="plusBtn">+</button></div>
+        <div class="avatar">👩🏻</div>
+        <span>⌄</span>
+      </div>
+    </header>
+
+    <main>
+      <section class="screen dashboard-screen">
+        <div class="label">1. Dashboard (Home Page)</div>
+        <div class="dashboard-grid">
+          <aside class="sidebar glass">
+            <div class="mini-brand"><span class="brand-mark">V</span><b>VELOOP</b><small>Rewards & Giveaways</small></div>
+            <nav id="mainNav">
+              <button class="nav active" data-target="dashboard">⌂ <span>Dashboard</span></button>
+              <button class="nav" data-target="watch">▶ <span>Watch & Earn</span></button>
+              <button class="nav" data-target="tasks">▣ <span>Daily Tasks</span></button>
+              <button class="nav" data-target="rewards">🏆 <span>Rewards</span></button>
+              <button class="nav" data-target="giveaways">🎁 <span>Giveaways</span></button>
+              <button class="nav" data-target="leaderboard">♟ <span>Leaderboard</span></button>
+              <button class="nav" data-target="wallet">▣ <span>Wallet</span></button>
+              <button class="nav" data-target="profile">● <span>Profile</span></button>
+            </nav>
+            <div class="invite-card">
+              <div class="gift-big">🎁</div>
+              <b>Invite Friends</b><small>Get 10% Bonus</small>
+              <button>Invite Now</button>
+            </div>
+            <div class="side-slogan">Watch<br><i>Earn</i><br>Win<span>✦</span></div>
+          </aside>
+
+          <div class="dash-main">
+            <div class="welcome-row">
+              <div class="hero card">
+                <div>
+                  <h1>Welcome to VELOOP</h1>
+                  <p>Watch Ads • Complete Tasks • Earn Rewards</p>
+                  <button class="primary" data-target="watch">Start Earning</button>
+                </div>
+                <div class="hero-art">▶<span>◷</span>🎁</div>
+              </div>
+              <div class="bonus card">
+                <div class="gift-big">🎁</div><div><b>Daily Bonus</b><small>Login daily and claim your bonus!</small></div>
+                <button class="primary small" id="bonusBtn">🪙 Claim 25 VE</button>
+              </div>
+            </div>
+
+            <div class="stats-row">
+              <div class="stat card"><strong>🟢</strong><small>Total Earnings</small><b>2,450 VE</b><em>↗ 20% today</em></div>
+              <div class="stat card"><strong>🟢</strong><small>Today's Earnings</small><b>+320 VE</b><em>↗ 15% vs yesterday</em></div>
+              <div class="stat card purple"><strong>▶</strong><small>Total Ads Watched</small><b>12/20</b><em>8 more to complete</em></div>
+              <div class="stat card pink"><strong>▣</strong><small>Current Streak</small><b>5 Days 🔥</b><em>Keep it up!</em></div>
+            </div>
+
+            <div class="watch-panel card">
+              <div class="section-head"><div><b>▶ Watch & Earn</b><small>Watch short ads, complete the timer and earn VE coins.</small></div><span>6 Unique Ads &nbsp; <u>View All</u></span></div>
+              <div class="ads-grid">
+                <article class="ad-card"><div class="ad-image boat">boAt <span>▶</span></div><b>boAt Headphones</b><small>🪙 +20 VE &nbsp; ◷ 30s</small><button class="primary watch-btn" data-ad="20">▶ Watch Now</button></article>
+                <article class="ad-card"><div class="ad-image samsung">SAMSUNG <span>📱</span></div><b>Samsung Galaxy</b><small>🪙 +25 VE &nbsp; ◷ 20s</small><button class="primary watch-btn" data-ad="25">▶ Watch Now</button></article>
+                <article class="ad-card"><div class="ad-image amazon">amazon <span>📦</span></div><b>Amazon Prime</b><small>🪙 +15 VE &nbsp; ◷ 20s</small><button class="primary watch-btn" data-ad="15">▶ Watch Now</button></article>
+                <article class="ad-card"><div class="ad-image nike">✓</div><b>Nike Collection</b><small>🪙 +30 VE &nbsp; ◷ 20s</small><button class="primary watch-btn" data-ad="30">▶ Watch Now</button></article>
+                <article class="ad-card"><div class="ad-image netflix">NETFLIX</div><b>Netflix Premium</b><small>🪙 +20 VE &nbsp; ◷ 25s</small><button class="primary watch-btn" data-ad="20">▶ Watch Now</button></article>
+                <article class="ad-card"><div class="ad-image zomato">zomato <span>🍱</span></div><b>Zomato Food</b><small>🪙 +25 VE &nbsp; ◷ 20s</small><button class="primary watch-btn" data-ad="25">▶ Watch Now</button></article>
+              </div>
+            </div>
+          </div>
+
+          <aside class="right-column">
+            <div class="grand-card card">
+              <div class="section-head"><b>🎁 Grand Giveaway</b><u>View All</u></div>
+              <div class="giveaway-art">📱 🎧</div><b>Grand Prize</b><small>Win amazing gifts!</small>
+              <button class="primary">Join Now</button>
+            </div>
+            <div class="activity card">
+              <div class="section-head"><b>✓ Recent Activity</b><u>View All</u></div>
+              <p>🟢 You earned +20 VE <small>2 min ago</small></p>
+              <p>🟢 You watched an ad <small>4 min ago</small></p>
+              <p>🟢 You earned +15 VE <small>12 min ago</small></p>
+              <p>🟣 You joined a Giveaway <small>1 hour ago</small></p>
+            </div>
+            <div class="mini-leader card">
+              <div class="section-head"><b>🏆 Today's Leaderboard (Top 5)</b><u>View All</u></div>
+              <p>🥇 Priya Sharma <b>8,650 VE</b></p><p>🥈 Rohan Mehta <b>7,320 VE</b></p><p>🥉 Sneha Verma <b>6,890 VE</b></p>
+              <p class="you">4. 👩🏻 You (Hansa Prajapat) <b>2,450 VE</b></p>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="screen three-col">
+        <div class="label">2. Watch Ad Flow</div>
+        <div class="watch-flow card">
+          <div class="back" data-target="dashboard">‹ Back</div><h3>Watch Ad</h3>
+          <div class="ad-preview boat">boAt Headphones <span>▶</span><small>Premium Sound. Everyday.</small></div>
+          <div class="timer-box">⏱ <span>Time Remaining</span><b id="timer">00:25</b><div class="progress"><i id="timerProgress"></i></div></div>
+          <div class="notice">ⓘ Please watch the complete ad to earn your reward!</div>
+          <div class="steps">
+            <p>🟢 <b>Ad Loading...</b><span>✓</span></p>
+            <p>🔵 <b>Watching Ad...</b><span id="watchPct">60%</span></p>
+            <p>🟣 <b>Ad Completed!</b><span>✓</span></p>
+            <p>🟣 <b>Processing Reward...</b></p>
+            <p>⭐ <b>Rewarded!</b><strong id="flowReward">+20 VE</strong></p>
+          </div>
+          <button class="primary full" id="completeBtn">Complete & Reward</button>
+        </div>
+
+        <div class="reward-column">
+          <div class="label">3. Reward Success</div>
+          <div class="success card">
+            <button class="close">×</button><div class="confetti">🎉 🎊 ✨</div>
+            <div class="gift-huge">🎁</div><h2>🎁 Congratulations!</h2><p>You earned <b>+20 VE</b></p>
+            <div class="coin">VE</div><button class="primary">View Rewards</button>
+          </div>
+          <div class="label">4. Grand Giveaway</div>
+          <div class="giveaway-box card"><div class="section-head"><h3>🎁 Grand Giveaway</h3><u>View All</u></div><div class="prize"><span>📱</span><div><b>iPhone 16</b><small>Grand Prize</small></div><button class="primary">Join Now</button></div></div>
+        </div>
+      </section>
+
+      <section class="screen bottom-grid">
+        <div>
+          <div class="label">5. Leaderboard</div>
+          <div class="leaderboard card">
+            <div class="tabs"><button class="active">Weekly</button><button>Monthly</button><button>All Time</button></div>
+            <div class="lb-head"># &nbsp;&nbsp; User <span>VE Earned</span></div>
+            <p>👑 &nbsp; Priya Sharma <b>8,650 VE</b></p><p>2 &nbsp; Rohan Mehta <b>7,320 VE</b></p><p>3 &nbsp; Sneha Verma <b>6,890 VE</b></p><p class="you">4 &nbsp; Hansa Prajapat (You) <b>2,450 VE</b></p><p>5 &nbsp; Amit Singh <b>1,980 VE</b></p><p>6 &nbsp; Neha Yadav <b>1,750 VE</b></p><p>7 &nbsp; Karan Mehta <b>1,620 VE</b></p><p>8 &nbsp; Pooja Sharma <b>1,480 VE</b></p><p>9 &nbsp; Rahul Verma <b>1,320 VE</b></p><p>10 &nbsp; Deepak Yadav <b>1,210 VE</b></p>
+            <div class="win-banner">🎁 Top 1 Wins iPhone 16 Plus!</div>
+          </div>
+        </div>
+
+        <div>
+          <div class="label">6. Profile Page</div>
+          <div class="profile card"><div class="back">‹ Profile</div><div class="profile-top"><div class="profile-avatar">👩🏻</div><div><h3>Hansa Prajapat</h3><small>🟡 Verified User</small><p>hansa@email.com</p></div><button>Edit Profile</button></div>
+            <div class="profile-stats"><div><b>2,450 VE</b><small>Wallet Balance</small></div><div><b>#3</b><small>Weekly Rank</small></div><div><b>12/20</b><small>Ads Completed</small></div><div><b>5 Days</b><small>Daily Streak</small></div><div><b>8</b><small>Total Giveaways</small></div></div>
+            <h3>Today's Progress</h3><div class="progress"><i style="width:66%"></i></div><b>4/6 Ads Completed <span class="float">66%</span></b>
+            <div class="profile-menu"><p>🎁 My Rewards <span>›</span></p><p>♧ Gift History <span>›</span></p><p>⚙ Settings <span>›</span></p><p>⇥ Logout <span>›</span></p></div>
+          </div>
+        </div>
+
+        <div>
+          <div class="label">7. Winner Gift Entry</div>
+          <div class="gift-entry card"><div class="back">‹ Gift Entry (Winner)</div><div class="winner"><div class="confetti">👑 ✨ 🎉</div><h2>Congratulations!</h2><p>You are the lucky winner!</p><div class="prize-mini">📱 <b>iPhone 16</b><small>Grand Prize</small></div></div>
+            <h4>Winner Details</h4><input placeholder="Name" value="Hansa Prajapat"><input placeholder="Phone Number" value="+91 98765 43210"><input placeholder="Email" value="hansa@email.com"><input placeholder="Delivery Address" value="Jaipur, Rajasthan"><button class="primary full" id="giftBtn">Create Gift Entry</button>
+          </div>
+        </div>
+
+        <div>
+          <div class="label">8. Wallet & Redeem</div>
+          <div class="wallet card"><div class="back">‹ My Wallet</div><div class="wallet-balance">🎁 <b>2,450 VE</b><small>Available Balance</small><button>Withdraw</button></div>
+            <div class="wallet-tabs"><button class="active">Redeem Gifts</button><button>Transaction History</button></div><h3>Redeem Your Rewards</h3>
+            <div class="redeem-grid"><div>🛒 <b>Amazon Gift Card ₹500</b><small>🪙 2,500 VE</small><button>Redeem</button></div><div>🎫 <b>Flipkart Gift Card ₹500</b><small>🪙 2,500 VE</small><button>Redeem</button></div><div>▶ <b>Google Play Card ₹500</b><small>🪙 2,300 VE</small><button>Redeem</button></div><div>🎧 <b>Wireless Headphones</b><small>🪙 5,000 VE</small><button>Redeem</button></div></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer><b>V</b> VELOOP &nbsp; Rewards & Giveaways <span>Watch • Earn • Win • Repeat ♕</span></footer>
+  </div>
+  <div id="toast" class="toast"></div>
+  <script src="script.js"></script>
+</body>
+</html>
